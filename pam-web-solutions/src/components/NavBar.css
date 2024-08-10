@@ -1,0 +1,18 @@
+header nav {
+    display: flex;
+    justify-content: end;
+    max-width: 1200px;
+    margin: 0 auto ;
+}
+
+header nav h1 {
+    margin-right: auto;
+    text-decoration: underline;
+}
+
+header nav a {
+    text-decoration: none;
+    border-radius: 4px;
+    padding:8px;
+    margin-top: 12px;
+}
