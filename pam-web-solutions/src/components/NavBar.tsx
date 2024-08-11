@@ -1,14 +1,17 @@
 import { NavLink, Outlet } from "react-router-dom";
 import "./NavBar.css";
-
+import Logo from "../assets/images/web solutions-logo.png";
 const NavBar = () => {
   return (
     <div>
-      <header>
+      <header className="bg-secondary p-3">
         <nav>
-          <h1>
-            <NavLink to="/">PWS</NavLink>
-          </h1>
+          <div className="logo">
+            <NavLink to="/">
+              <img className="img-fluid" src={Logo} alt="logo" />
+            </NavLink>
+          </div>
+
           <NavLink to="/">Home</NavLink>
           <NavLink to="about">About</NavLink>
           <NavLink to="contact">Contact</NavLink>

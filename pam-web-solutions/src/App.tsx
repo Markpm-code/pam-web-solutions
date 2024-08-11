@@ -10,6 +10,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import NotFound from "./pages/NotFound";
+import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const router = createBrowserRouter(
